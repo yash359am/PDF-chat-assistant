@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+chroma_langchain_db/
+test_app.py
