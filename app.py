@@ -7,6 +7,8 @@ PDF Chat Assistant — Streamlit RAG Application
 
 import os
 import time
+import runpy
+from pathlib import Path
 
 # Set offline environment flags BEFORE importing HuggingFace / Transformers
 os.environ["HF_HUB_OFFLINE"] = "1"
